@@ -1,0 +1,108 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e Fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: #00f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Seção Sobre */
+.about {
+    padding: 40px 0;
+    background-color: #111;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Seção de Serviços */
+.services {
+    padding: 40px 0;
+    background-color: #222;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.8rem;
+    color: #00f;
+}
+
+.service p {
+    font-size: 1.2rem;
+}
+
+/* Seção de Contato */
+.contact {
+    padding: 40px 0;
+    background-color: #111;
+    text-align: center;
+}
+
+.contact a {
+    color: #00f;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    padding: 20px 0;
+    background-color: #000;
+    text-align: center;
+    color: #777;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
